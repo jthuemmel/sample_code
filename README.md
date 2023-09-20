@@ -1,4 +1,6 @@
-Sample implementations of various models I used during my PhD. Training and analsyis code is (currently) not included.
+Sample implementations of various models I worked with during my PhD. Training and analsyis code is (currently) not included.
+All model code was written and tested by myself over the last two years, with inspiration from the official implementations and https://github.com/lucidrains. 
+Most recent work was done on SwinLSTM, PerceiverIO and MAE for ENSO ocean data.
 
 Contents:
 - data
