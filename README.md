@@ -7,7 +7,7 @@ Most recent work was done on SwinLSTM, PerceiverIO and MAE for ENSO ocean data.
   - enso: dataset and preprocessing (courtesy Jakob Schlör) for ocean data from CMIP6.
   - weatherbench: dataset and scores (courtesy Stephan Rasp) for WeatherBench 1.
   - 2dwaves: dataset and data generators (courtesy Matthias Karlbauer) for 2d wave equation.
-- losses:
+- losses
   - latMSE for weighing losses according to their latitude for global earth data.
   - loss_fn contains three probabilistic loss functions: NormalCRPS (Gneiting 2005), BetaNLL (Seitzer et al 2022), StatisticalLoss (Lessig et al 2023).
 - models
@@ -18,3 +18,5 @@ Most recent work was done on SwinLSTM, PerceiverIO and MAE for ENSO ocean data.
 - notebooks
   - mnist_gnn is a showcase tutorial of a GNN on MNIST, made for a student.
   - enso_cnn_classifier is a sample implementation of a CNN (based on Liu et al 2022) for use in el nino event classification, made for a student.
+- trainer and trainer utils
+  - distributed training pipeline based on torch distributed (courtesy Sebastian Hoffmann)
